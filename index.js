@@ -10,17 +10,19 @@ const { notBlankOrElse } = require('./src/utils');
 
 async function createSnapshot(url, filePath, fileName, fileExtension) {
   try {
-    const file = path.join(filePath, `${fileName}.${fileExtension}`);
-    console.log(`Generating screenshot with parameters: url=${url}, file=${file}\n`);
+    const imagePath = path.join(filePath, `${fileName}.${fileExtension}`);
+    console.log(`Generating screenshot with parameters: url=${url}, file=${imagePath}\n`);
 
     if (!fs.existsSync(filePath)) {
       fs.mkdirSync(filePath);
     }
 
-    const image = fs.createWriteStream(file);
+    const image = fs.createWriteStream(imagePath);
     await http.get(url, resp => {
       resp.pipe(image);
     });
+
+    return imagePath;
   } catch (e) {
     console.error(e);
   }
