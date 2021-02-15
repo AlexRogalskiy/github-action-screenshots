@@ -1,10 +1,10 @@
 name: 'Screenshots'
-description: 'Create screenshots by input json data source'
+description: 'Create screenshots by input source url'
 author: 'AlexRogalskiy'
 
 inputs:
   url:
-    description: 'source url to create screenshot from'
+    description: 'screenshot source url'
     required: true
   name:
     description: 'screenshot name'
@@ -18,6 +18,14 @@ inputs:
     description: 'screenshot extension'
     required: false
     default: png
+  encoding:
+    description: 'screenshot encoding'
+    required: false
+    default: 'binary'
+  fullpage:
+    description: 'screenshot with a full-page view'
+    required: false
+    default: 'false'
   width:
     description: 'screenshot width'
     required: false

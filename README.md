@@ -52,6 +52,14 @@ Creates screenshots by input json data source and dimension parameters.
 
 **Optional** Screenshot image extension (default **png**)
 
+### `encoding`
+
+**Optional** Screenshot image encoding (default **binary**)
+
+### `fullpage`
+
+**Optional** Screenshot image with a full-page view (default **false**)
+
 ### `width`
 
 **Optional** Screenshot image width (default **1024**)
@@ -76,13 +84,15 @@ Generated screenshot image (stored in the root directory)
     name: 'screenshot'
     path: 'images'
     extension: 'png'
+    encoding: 'binary'
+    fullpage: false
     width: 400
     height: 400
 ```
 
 Running locally:
 
-- `npm run start:action --action github-action-screenshots --url 'https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/0.json' --name screenshot-name --extension png --width 400 --height 400`
+- `npm run start:action --action github-action-screenshots --url 'https://www.google.com/' --name screenshot-name --extension png --width 400 --height 400`
 
 ## <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30" height="30"> _Star Gazers_
 
