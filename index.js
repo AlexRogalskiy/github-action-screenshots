@@ -29,9 +29,9 @@ async function createSnapshot(url, filePath, fileName, fileExtension) {
 }
 
 async function run() {
-  const url = core.getInput('url');
-  const width = notBlankOrElse(core.getInput('width'), config.width);
-  const height = notBlankOrElse(core.getInput('height'), config.height);
+  const url = 'https://mm.mts.ru/group/sorm374-voice-adapter86';//score.getInput('url');
+  const width = 400;//notBlankOrElse(core.getInput('width'), config.width);
+  const height = 400;//notBlankOrElse(core.getInput('height'), config.height);
   const fullPage = notBlankOrElse(core.getInput('fullPage'), config.fullPage);
   const encoding = notBlankOrElse(core.getInput('encoding'), config.encoding);
 
