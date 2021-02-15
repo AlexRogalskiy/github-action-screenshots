@@ -70,7 +70,7 @@ Creates screenshots by input json data source and dimension parameters.
 
 ## Outputs
 
-### `images`
+### `image`
 
 Generated screenshot image (stored in the root directory)
 

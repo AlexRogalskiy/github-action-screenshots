@@ -4,7 +4,9 @@ const CONFIG = {
   url: 'https://styled-screenshots.vercel.app/api',
   name: 'screenshot',
   path: 'images',
-  extension: 'png',
+  type: 'png',
+  encoding: 'binary',
+  fullPage: false,
   width: 1024,
   height: 768,
 };
