@@ -1,5 +1,5 @@
-name: 'Screenshots'
-description: 'Create screenshots by input source url'
+name: 'Web Screenshots'
+description: 'Create web screenshots by input source url'
 author: 'AlexRogalskiy'
 
 inputs:
