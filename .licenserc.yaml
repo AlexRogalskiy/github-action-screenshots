@@ -1,0 +1,70 @@
+header: # `header` section is configurations for source codes license header.
+  license:
+    spdx-id: GPL-3.0-or-later # the spdx id of the license, it's convenient when your license is standard SPDX license.
+    copyright-owner: Apache Software Foundation # the copyright owner to replace the [owner] in the `spdx-id` template.
+    content: | # `license` will be used as the content when `fix` command needs to insert a license header.
+      GitHub action for Styled Screenshots
+      Copyright (C) 2021 Alexander Rogalskiy
+
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation, either version 3 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program.  If not, see https\\://www.gnu.org/licenses/.
+
+    # `pattern` is optional regexp if all the file headers are the same as `license` or the license of `spdx-id` and `copyright-owner`.
+    pattern: |
+      GitHub action for Styled Screenshots
+      Copyright (C) 2021 Alexander Rogalskiy
+
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation, either version 3 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program.  If not, see https\\://www.gnu.org/licenses/.
+
+  paths: # `paths` are the path list that will be checked (and fixed) by license-eye, default is ['**'].
+    - '**'
+
+  paths-ignore: # `paths-ignore` are the path list that will be ignored by license-eye.
+    - '.dependabot'
+    - '.github'
+    - 'dist'
+    - 'rss'
+    - 'templates'
+
+    - 'LICENSE'
+    - 'NOTICE'
+    - '.editorconfig'
+    - '.eslintignore'
+    - '.gitattributes'
+    - '.gitignore'
+    - '.node-inspectorrc'
+    - '.prettierignore'
+    - '.vimrc'
+    - '.whitesource'
+
+    - '**/*.md'
+    - '**/*.lock'
+    - '**/*.yaml'
+    - '**/*.yml'
+    - '**/*.json'
+    - '**/*.toml'
+    - '**/*.png'
+    - '**/*.js'
+
+  comment: on-failure # on what condition license-eye will comment on the pull request, `on-failure`, `always`, `never`.

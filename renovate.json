@@ -1,0 +1,32 @@
+{
+    "extends": [
+        "config:base",
+        ":maintainLockFilesWeekly",
+        ":prHourlyLimitNone",
+        ":prConcurrentLimitNone"
+    ],
+    "maven": {
+        "enabled": true
+    },
+    "ignoreUnstable": false,
+    "schedule": [
+        "after 10pm every weekday",
+        "before 5am every weekday",
+        "every weekend"
+    ],
+    "automerge": true,
+    "automergeType": "branch",
+    "major": {
+        "automerge": false
+    },
+    "masterIssue": true,
+    "timezone": "Europe/Moscow",
+    "rangeStrategy": "bump",
+    "commitMessageAction": "Updates",
+    "commitMessageTopic": "{{depName}}",
+    "commitMessagePrefix": ":arrow_up:",
+    "labels": [
+        "npm dependencies",
+        "bump:patch"
+    ]
+}
