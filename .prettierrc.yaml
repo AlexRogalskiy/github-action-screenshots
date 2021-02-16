@@ -2,7 +2,7 @@ printWidth: 110
 tabWidth: 2
 useTabs: false
 endOfLine: lf
-semi: false
+semi: true
 singleQuote: true
 quoteProps: 'consistent'
 jsxSingleQuote: false

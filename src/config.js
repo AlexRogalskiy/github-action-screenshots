@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const CONFIG = {
   url: 'https://styled-screenshots.vercel.app/api',
@@ -9,6 +9,6 @@ const CONFIG = {
   fullPage: false,
   width: 1024,
   height: 768,
-}
+};
 
-module.exports = CONFIG
+module.exports = CONFIG;
