@@ -29,7 +29,7 @@ async function createSnapshot(url, filePath, fileName, fileExtension) {
 }
 
 async function run() {
-  const url = 'https://mm.mts.ru/group/sorm374-voice-adapter86';//score.getInput('url');
+  const url = 'https://www.brainyquote.com/quote_of_the_day';//score.getInput('url');
   const width = 400;//notBlankOrElse(core.getInput('width'), config.width);
   const height = 400;//notBlankOrElse(core.getInput('height'), config.height);
   const fullPage = notBlankOrElse(core.getInput('fullPage'), config.fullPage);
