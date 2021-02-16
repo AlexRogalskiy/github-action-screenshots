@@ -19,9 +19,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "webshot": "^0.18.0",
-    "webshot-node": "^0.18.2"
+    "@actions/core": "^1.2.6"
   },
   "devDependencies": {
     "@vercel/ncc": "~>0.27.0",
