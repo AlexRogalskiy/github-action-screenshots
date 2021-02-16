@@ -33,6 +33,28 @@
 ## _Table of contents_
 
 <!--ts-->
+   * [<em>Styled screenshots</em>](#styled-screenshots)
+      * [<em>Table of contents</em>](#table-of-contents)
+      * [<em>Description</em>](#description)
+      * [<em>Inputs</em>](#inputs)
+         * [url](#url)
+         * [name](#name)
+         * [path](#path)
+         * [extension](#extension)
+         * [encoding](#encoding)
+         * [fullPage](#fullpage)
+         * [width](#width)
+         * [height](#height)
+      * [<em>Outputs</em>](#outputs)
+         * [image](#image)
+      * [<em>Examples</em>](#examples)
+      * [<em>Visitor stats</em>](#visitor-stats)
+      * [<em>Licensing</em>](#licensing)
+      * [<em>Authors</em>](#authors)
+      * [<em>Versioning</em>](#versioning)
+      * [<em>Contribution</em>](#contribution)
+      * [<em>Acknowledgement</em>](#acknowledgement)
+      * [<em>Forks</em>](#forks)
 <!--te-->
 
 ## _Description_
