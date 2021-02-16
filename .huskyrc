@@ -1,5 +1,6 @@
 {
   "hooks": {
+    "prepare-commit-msg": "git cz --hook || true",
     "pre-commit": "pretty-quick --staged && lint-staged"
   }
 }
