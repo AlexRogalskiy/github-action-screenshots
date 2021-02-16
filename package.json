@@ -12,7 +12,7 @@
     "postpublish": "npm run clean",
     "lint:editorconfig": "editorconfig-checker -exclude \\.yml$",
     "start:action": "npm run prepublish && node dist/index.js",
-    "lint": "eslint --fix --quiet -f codeframe --ext js,ts .",
+    "lint": "eslint --fix --quiet -f codeframe --ext js .",
     "lint:staged": "lint-staged --no-stash --allow-empty",
     "test": "TZ=utc jest",
     "test:coverage": "jest --collectCoverage",
