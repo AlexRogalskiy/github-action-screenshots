@@ -45,6 +45,12 @@
     "type": "git",
     "url": "git+https://github.com/AlexRogalskiy/github-action-screenshot.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "keywords": [
     "github-actions",
     "styled screenshot",
