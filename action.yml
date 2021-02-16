@@ -22,7 +22,7 @@ inputs:
     description: 'screenshot encoding'
     required: false
     default: 'binary'
-  fullpage:
+  fullPage:
     description: 'screenshot with a full-page view'
     required: false
     default: 'false'

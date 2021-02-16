@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = wallaby => ({
   files: [
@@ -20,4 +20,4 @@ module.exports = wallaby => ({
   },
 
   testFramework: 'jest',
-});
+})

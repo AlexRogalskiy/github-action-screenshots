@@ -1,4 +1,4 @@
-# Styled screenshots
+# _Styled screenshots_
 
 [![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--web-screenshots-blue?logo=github)](https://github.com/marketplace/actions/web-screenshots)
 
@@ -30,11 +30,31 @@
 [![Public workflows that use this action.][total_usages]][search_results]
 [![Licence][license_id]][license_content]
 
-## Description
+## _Table of contents_
+
+<!--ts-->
+<!--te-->
+
+## _Description_
+
+<p align="center" style="text-align:center;">
+    <a href="https://www.typescriptlang.org/">
+        <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+    </a>
+    <a href="https://www.repostatus.org/#active">
+        <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/created/AlexRogalskiy/github-action-screenshots" alt="Project created status" />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/updated/AlexRogalskiy/github-action-screenshots" alt="Project updated status" />
+    </a>
+</p>
 
 Creates screenshots by input json data source and dimension parameters.
 
-## Inputs
+## _Inputs_
 
 ### `url`
 
@@ -56,7 +76,7 @@ Creates screenshots by input json data source and dimension parameters.
 
 **Optional** Screenshot image encoding (default **binary**)
 
-### `fullpage`
+### `fullPage`
 
 **Optional** Screenshot image with a full-page view (default **false**)
 
@@ -68,13 +88,13 @@ Creates screenshots by input json data source and dimension parameters.
 
 **Optional** Screenshot image height (default **768**)
 
-## Outputs
+## _Outputs_
 
 ### `image`
 
 Generated screenshot image (stored in the root directory)
 
-## Examples
+## _Examples_
 
 ```yml
 - name: Create screenshots
@@ -85,7 +105,7 @@ Generated screenshot image (stored in the root directory)
     path: 'images'
     extension: 'png'
     encoding: 'binary'
-    fullpage: false
+    fullPage: false
     width: 400
     height: 400
 ```
@@ -94,16 +114,62 @@ Running locally:
 
 - `npm run start:action --action github-action-screenshots --url 'https://www.google.com/' --name screenshot-name --extension png --width 400 --height 400`
 
-## <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30" height="30"> _Star Gazers_
+## _Visitor stats_
 
-[![Stargazers repo roster for @AlexRogalskiy/github-action-screenshots](https://reporoster.com/stars/AlexRogalskiy/github-action-screenshots)](https://github.com/AlexRogalskiy/github-action-screenshots/stargazers)
+[![GitHub page hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAlexRogalskiy%2Fgithub-action-screenshots&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
-## <img src="https://ghost.org/images/docs/setup/fork.gif" width="30" height="30"> _Forkers_
+![GitHub stars](https://img.shields.io/github/stars/AlexRogalskiy/github-action-screenshots?style=social)
+![GitHub forks](https://img.shields.io/github/forks/AlexRogalskiy/github-action-screenshots?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/AlexRogalskiy/github-action-screenshots?style=social)
 
-[![Forkers repo roster for @AlexRogalskiy/github-action-screenshots](https://reporoster.com/forks/AlexRogalskiy/github-action-screenshots)](https://github.com/AlexRogalskiy/github-action-screenshots/network/members)
+## _Licensing_
 
-[repo]: https://github.com/AlexRogalskiy/github-action-screenshots
-[total_usages]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-screenshots%26badge%3Dtrue
-[search_results]: https://github.com/search?o=desc&q=AlexRogalskiy/github-action-screenshots+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
-[license_id]: https://img.shields.io/github/license/AlexRogalskiy/github-action-screenshots
-[license_content]: https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE
+_**Styled Screenshots**_ is distributed under LGPL version 3 or later, [[License](https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE)].
+LGPLv3 is additional permissions on top of GPLv3.
+
+![license](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
+
+## _Authors_
+
+_**Styled Screenshots**_ is maintained by the following GitHub team-members:
+
+* [![Author](https://img.shields.io/badge/author-AlexRogalskiy-FB8F0A)](https://github.com/AlexRogalskiy)
+
+with community support please contact with us if you have some question or proposition.
+
+## _Versioning_
+
+The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository][tags].
+
+## _Contribution_
+
+[![Contributors Display](https://badges.pufler.dev/contributors/AlexRogalskiy/github-action-screenshots?size=50&padding=5&bots=true)](https://badges.pufler.dev)
+
+Please read [CONTRIBUTING.md](https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/github-action-screenshots)
+
+See also the list of [contributors][contributors] who participated in this project.
+
+## _Acknowledgement_
+
+[![Stargazers repo roster for @AlexRogalskiy/github-action-screenshots](https://reporoster.com/stars/AlexRogalskiy/github-action-screenshots)][stars]
+
+## _Forks_
+
+[![Forkers repo roster for @AlexRogalskiy/github-action-screenshots](https://reporoster.com/forks/AlexRogalskiy/github-action-screenshots)][forkers]
+
+
+  [repo]:               https://github.com/AlexRogalskiy/github-action-screenshots
+  [tags]:               https://github.com/AlexRogalskiy/github-action-screenshots/tags
+  [issues]:             https://github.com/AlexRogalskiy/github-action-screenshots/issues
+  [pulls]:              https://github.com/AlexRogalskiy/github-action-screenshots/pulls
+  [wiki]:               https://github.com/AlexRogalskiy/github-action-screenshots/wiki
+  [stars]:              https://github.com/AlexRogalskiy/github-action-screenshots/stargazers
+  [forkers]:            https://github.com/AlexRogalskiy/github-action-screenshots/network/members
+  [contributors]:       https://github.com/AlexRogalskiy/github-action-screenshots/graphs/contributors
+  [license_id]:         https://img.shields.io/github/license/AlexRogalskiy/github-action-screenshots
+  [license_content]:    https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE
+  [total_usages]:       https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-screenshots%26badge%3Dtrue
+  [search_results]:     https://github.com/search?o=desc&q=AlexRogalskiy/github-action-screenshots+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
