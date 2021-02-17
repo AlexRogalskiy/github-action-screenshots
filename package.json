@@ -1,6 +1,6 @@
 {
   "name": "github-action-screenshot",
-  "version": "1.0.0",
+  "version": "0.0.0-dev",
   "description": "Automatically provides jpeg/png screenshot images by input source url",
   "main": "index.js",
   "license": "GPL-3.0",
@@ -71,14 +71,6 @@
     "tagFormat": "v${version}",
     "plugins": [
       "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false,
-          "tarballDir": "dist",
-          "allowSameVersion": true
-        }
-      ],
       [
         "@semantic-release/github",
         {
