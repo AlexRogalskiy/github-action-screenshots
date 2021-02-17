@@ -33,28 +33,14 @@
 ## _Table of contents_
 
 <!--ts-->
-   * [<em>Styled screenshots</em>](#styled-screenshots)
-      * [<em>Table of contents</em>](#table-of-contents)
-      * [<em>Description</em>](#description)
-      * [<em>Inputs</em>](#inputs)
-         * [url](#url)
-         * [name](#name)
-         * [path](#path)
-         * [extension](#extension)
-         * [encoding](#encoding)
-         * [fullPage](#fullpage)
-         * [width](#width)
-         * [height](#height)
-      * [<em>Outputs</em>](#outputs)
-         * [image](#image)
-      * [<em>Examples</em>](#examples)
-      * [<em>Visitor stats</em>](#visitor-stats)
-      * [<em>Licensing</em>](#licensing)
-      * [<em>Authors</em>](#authors)
-      * [<em>Versioning</em>](#versioning)
-      * [<em>Contribution</em>](#contribution)
-      * [<em>Acknowledgement</em>](#acknowledgement)
-      * [<em>Forks</em>](#forks)
+
+- [<em>Styled screenshots</em>](#styled-screenshots) _ [<em>Table of contents</em>](#table-of-contents) _
+[<em>Description</em>](#description) _ [<em>Inputs</em>](#inputs) _ [url](#url) _ [name](#name) _
+[path](#path) _ [extension](#extension) _ [encoding](#encoding) _ [fullPage](#fullpage) _ [width](#width) _
+[height](#height) _ [<em>Outputs</em>](#outputs) _ [image](#image) _ [<em>Examples</em>](#examples) _
+[<em>Visitor stats</em>](#visitor-stats) _ [<em>Licensing</em>](#licensing) _ [<em>Authors</em>](#authors) _
+[<em>Versioning</em>](#versioning) _ [<em>Contribution</em>](#contribution) _
+[<em>Acknowledgement</em>](#acknowledgement) \* [<em>Forks</em>](#forks)
 <!--te-->
 
 ## _Description_
@@ -114,7 +100,7 @@ Creates screenshots by input json data source and dimension parameters.
 
 ### `image`
 
-Generated screenshot image (stored in the root directory)
+Generated screenshot image (stored in the `path` directory)
 
 ## _Examples_
 
@@ -146,8 +132,9 @@ Running locally:
 
 ## _Licensing_
 
-_**Styled Screenshots**_ is distributed under LGPL version 3 or later, [[License](https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE)].
-LGPLv3 is additional permissions on top of GPLv3.
+_**Styled Screenshots**_ is distributed under LGPL version 3 or later,
+[[License](https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE)]. LGPLv3 is
+additional permissions on top of GPLv3.
 
 ![license](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
 
@@ -155,13 +142,14 @@ LGPLv3 is additional permissions on top of GPLv3.
 
 _**Styled Screenshots**_ is maintained by the following GitHub team-members:
 
-* [![Author](https://img.shields.io/badge/author-AlexRogalskiy-FB8F0A)](https://github.com/AlexRogalskiy)
+- [![Author](https://img.shields.io/badge/author-AlexRogalskiy-FB8F0A)](https://github.com/AlexRogalskiy)
 
 with community support please contact with us if you have some question or proposition.
 
 ## _Versioning_
 
-The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository][tags].
+The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on
+this repository][tags].
 
 ## _Contribution_
 
@@ -169,9 +157,11 @@ The project uses [SemVer](http://semver.org/) for versioning. For the versions a
 
 Please read
 [CONTRIBUTING.md](https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/.github/CONTRIBUTING.md)
-for details on our code of conduct, and the process for submitting pull requests to us ([emoji key](https://allcontributors.org/docs/en/emoji-key)).
+for details on our code of conduct, and the process for submitting pull requests to us
+([emoji key](https://allcontributors.org/docs/en/emoji-key)).
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors)
+specification. Contributions of any kind are welcome!
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/github-action-screenshots)
@@ -186,16 +176,17 @@ See also the list of [contributors][contributors] who participated in this proje
 
 [![Forkers repo roster for @AlexRogalskiy/github-action-screenshots](https://reporoster.com/forks/AlexRogalskiy/github-action-screenshots)][forkers]
 
-
-  [repo]:               https://github.com/AlexRogalskiy/github-action-screenshots
-  [tags]:               https://github.com/AlexRogalskiy/github-action-screenshots/tags
-  [issues]:             https://github.com/AlexRogalskiy/github-action-screenshots/issues
-  [pulls]:              https://github.com/AlexRogalskiy/github-action-screenshots/pulls
-  [wiki]:               https://github.com/AlexRogalskiy/github-action-screenshots/wiki
-  [stars]:              https://github.com/AlexRogalskiy/github-action-screenshots/stargazers
-  [forkers]:            https://github.com/AlexRogalskiy/github-action-screenshots/network/members
-  [contributors]:       https://github.com/AlexRogalskiy/github-action-screenshots/graphs/contributors
-  [license_id]:         https://img.shields.io/github/license/AlexRogalskiy/github-action-screenshots
-  [license_content]:    https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE
-  [total_usages]:       https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-screenshots%26badge%3Dtrue
-  [search_results]:     https://github.com/search?o=desc&q=AlexRogalskiy/github-action-screenshots+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
+[repo]: https://github.com/AlexRogalskiy/github-action-screenshots
+[tags]: https://github.com/AlexRogalskiy/github-action-screenshots/tags
+[issues]: https://github.com/AlexRogalskiy/github-action-screenshots/issues
+[pulls]: https://github.com/AlexRogalskiy/github-action-screenshots/pulls
+[wiki]: https://github.com/AlexRogalskiy/github-action-screenshots/wiki
+[stars]: https://github.com/AlexRogalskiy/github-action-screenshots/stargazers
+[forkers]: https://github.com/AlexRogalskiy/github-action-screenshots/network/members
+[contributors]: https://github.com/AlexRogalskiy/github-action-screenshots/graphs/contributors
+[license_id]: https://img.shields.io/github/license/AlexRogalskiy/github-action-screenshots
+[license_content]: https://github.com/AlexRogalskiy/github-action-screenshots/blob/master/LICENSE
+[total_usages]:
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-screenshots%26badge%3Dtrue
+[search_results]:
+  https://github.com/search?o=desc&q=AlexRogalskiy/github-action-screenshots+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
