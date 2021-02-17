@@ -12,7 +12,7 @@
     "postpublish": "npm run clean",
     "lint:editorconfig": "editorconfig-checker -exclude \\.yml$",
     "start:action": "npm run prepublish && node dist/index.js",
-    "lint": "eslint --fix --quiet -f codeframe --ext js .",
+    "lint": "eslint --cache --fix --quiet --format codeframe --ext js .",
     "lint:staged": "lint-staged --no-stash --allow-empty",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
@@ -75,7 +75,8 @@
         "@semantic-release/npm",
         {
           "npmPublish": false,
-          "tarballDir": "dist"
+          "tarballDir": "dist",
+          "allowSameVersion": true
         }
       ],
       [

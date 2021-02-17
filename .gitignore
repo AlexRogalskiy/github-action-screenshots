@@ -1,13 +1,13 @@
-# Log file
+# Log files
 *.log
 
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Cache files
+.eslintcache
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
