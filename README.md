@@ -23,6 +23,7 @@
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/github-action-screenshots)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/github-action-screenshots?branch=master)](https://hitsofcode.com/github/alexrogalskiy/github-action-screenshots?branch=master/view?branch=master)
 ![CI](https://github.com/AlexRogalskiy/github-action-screenshots/workflows/CI/badge.svg)
+[![CircleCI](https://circleci.com/gh/AlexRogalskiy/github-action-screenshots.svg?style=shield)](https://circleci.com/gh/AlexRogalskiy/github-action-screenshots)
 
 <!--[![codecov](https://codecov.io/gh/AlexRogalskiy/github-action-screenshots/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexRogalskiy/github-action-screenshot)-->
 

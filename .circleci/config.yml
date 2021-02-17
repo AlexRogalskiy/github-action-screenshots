@@ -2,7 +2,7 @@ version: 2.1
 
 docker_defaults: &docker_defaults
   docker:
-    - image: circleci/node:8.14.0
+    - image: circleci/node:latest
 
 commands:
   prep_env:
@@ -10,24 +10,24 @@ commands:
     steps:
       - checkout:
           path: ~/repo
-      - run:
-          name: "Update Node.js and npm"
-          command: |
-            curl -sSL "https://nodejs.org/dist/v11.10.0/node-v11.10.0-linux-x64.tar.xz" | sudo tar --strip-components=2 -xJ -C /usr/local/bin/ node-v11.10.0-linux-x64/bin/node
-            curl https://www.npmjs.com/install.sh | sudo bash
+      #      - run:
+      #          name: 'Update Node.js and npm'
+      #          command: |
+      #            curl -sSL "https://nodejs.org/dist/v12.13.0/node-v12.13.0-linux-x64.tar.xz" | sudo tar --strip-components=2 -xJ -C /usr/local/bin/ node-v12.13.0-linux-x64/bin/node
+      #            curl https://www.npmjs.com/install.sh | sudo bash
       - run:
           name: Check current version of node
           command: node -v
       - restore_cache:
           name: Restore node_modules cache
-          key: github-action-screenshots-{{ checksum "yarn.lock" }}-{{ .Branch }}
+          key: github-action-screenshots-{{ checksum "package-lock.json" }}-{{ .Branch }}
 
   save_env_cache:
     description: Saves environment cache
     steps:
       - save_cache:
           name: Save node_modules cache
-          key: github-action-screenshots-{{ checksum "yarn.lock" }}-{{ .Branch }}
+          key: github-action-screenshots-{{ checksum "package-lock.json" }}-{{ .Branch }}
           paths:
             - node_modules/
 
@@ -37,7 +37,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - prep_env
-      - run: yarn install --frozen-lockfile
+      - run: npm install
       - save_env_cache
 
   publish_release:
@@ -47,10 +47,12 @@ jobs:
       - prep_env
       - run:
           name: Don't allow install of package, when published
-          command: cat package.json | jq '.scripts.postinstall = "node index.js"' > package.json.tmp && mv package.json.tmp package.json
+          command:
+            cat package.json | jq '.scripts.postinstall = "node index.js"' > package.json.tmp && mv
+            package.json.tmp package.json
       - run:
           name: Semantic release to NPM and GitHub releases
-          command: yarn run semantic-release
+          command: npx -p @semantic-release/release-notes-generator -p @semantic-release/npm -p @semantic-release/github semantic-release
 
 workflows:
   version: 2
