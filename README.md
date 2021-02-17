@@ -33,14 +33,28 @@
 ## _Table of contents_
 
 <!--ts-->
-
-- [<em>Styled screenshots</em>](#styled-screenshots) _ [<em>Table of contents</em>](#table-of-contents) _
-[<em>Description</em>](#description) _ [<em>Inputs</em>](#inputs) _ [url](#url) _ [name](#name) _
-[path](#path) _ [extension](#extension) _ [encoding](#encoding) _ [fullPage](#fullpage) _ [width](#width) _
-[height](#height) _ [<em>Outputs</em>](#outputs) _ [image](#image) _ [<em>Examples</em>](#examples) _
-[<em>Visitor stats</em>](#visitor-stats) _ [<em>Licensing</em>](#licensing) _ [<em>Authors</em>](#authors) _
-[<em>Versioning</em>](#versioning) _ [<em>Contribution</em>](#contribution) _
-[<em>Acknowledgement</em>](#acknowledgement) \* [<em>Forks</em>](#forks)
+   * [<em>Styled screenshots</em>](#styled-screenshots)
+      * [<em>Table of contents</em>](#table-of-contents)
+      * [<em>Description</em>](#description)
+      * [<em>Inputs</em>](#inputs)
+         * [url](#url)
+         * [name](#name)
+         * [path](#path)
+         * [extension](#extension)
+         * [encoding](#encoding)
+         * [fullPage](#fullpage)
+         * [width](#width)
+         * [height](#height)
+      * [<em>Outputs</em>](#outputs)
+         * [image](#image)
+      * [<em>Examples</em>](#examples)
+      * [<em>Visitor stats</em>](#visitor-stats)
+      * [<em>Licensing</em>](#licensing)
+      * [<em>Authors</em>](#authors)
+      * [<em>Versioning</em>](#versioning)
+      * [<em>Contribution</em>](#contribution)
+      * [<em>Acknowledgement</em>](#acknowledgement)
+      * [<em>Forks</em>](#forks)
 <!--te-->
 
 ## _Description_
