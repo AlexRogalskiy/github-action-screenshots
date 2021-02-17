@@ -30,6 +30,7 @@ tmp/
 build/*
 packages/
 coverage/
+test-results/
 target/
 images/
 log/
