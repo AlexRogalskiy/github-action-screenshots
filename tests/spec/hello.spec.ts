@@ -7,5 +7,5 @@ it('hello world', ({hello, world}) => {
 
 it('hello test', ({hello, test}) => {
   console.debug("Running simple test #2 with params:", hello, test);
-  expect(`${hello}, ${test}!`).toBe('Hello1, Test!');
+  expect(`${hello}, ${test}!`).toBe('Hello, Test!');
 });
