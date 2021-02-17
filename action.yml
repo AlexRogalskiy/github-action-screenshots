@@ -9,15 +9,15 @@ inputs:
   name:
     description: 'screenshot name'
     required: false
-    default: demo
+    default: 'screenshot'
   path:
     description: 'screenshot path'
     required: false
-    default: images
+    default: 'images'
   extension:
     description: 'screenshot extension'
     required: false
-    default: png
+    default: 'png'
   encoding:
     description: 'screenshot encoding'
     required: false
