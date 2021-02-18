@@ -19,6 +19,7 @@
 ![GitHub search hit counter](https://img.shields.io/github/search/AlexRogalskiy/github-action-screenshots/goto)
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/github-action-screenshots)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/github-action-screenshots)
+[![Renovatebot](https://badgen.net/badge/renovate/enabled/green?cache=300)](https://renovatebot.com/)
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/github-action-screenshots)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/github-action-screenshots?branch=master)](https://hitsofcode.com/github/alexrogalskiy/github-action-screenshots?branch=master/view?branch=master)
