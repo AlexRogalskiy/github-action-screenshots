@@ -28,6 +28,7 @@
 
 <!--[![codecov](https://codecov.io/gh/AlexRogalskiy/github-action-screenshots/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexRogalskiy/github-action-screenshot)-->
 
+[![GitHub Super-Linter](https://github.com/AlexRogalskiy/github-action-screenshots/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][repo]
 [![Public workflows that use this action.][total_usages]][search_results]
 [![Licence][license_id]][license_content]
