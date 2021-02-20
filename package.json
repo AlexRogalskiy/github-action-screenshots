@@ -19,7 +19,8 @@
     "test:folio": "folio tests/spec/",
     "test": "TZ=utc jest",
     "test:coverage": "jest --collectCoverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "all": "npm run format && npm run lint && npm run prepublish"
   },
   "dependencies": {
     "@actions/core": "^1.2.6"

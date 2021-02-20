@@ -1,5 +1,7 @@
 # _Styled screenshots_
 
+> GitHub Action to generate styled screenshots
+
 [![GitHub marketplace](https://img.shields.io/badge/marketplacegithub-web--screenshots-blue?logo=github)](https://github.com/marketplace/actions/web-screenshots)
 
 [![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg)](https://github.com/lekterable/perfekt)
