@@ -1,6 +1,42 @@
 language: node_js
-node_js: 13
+
+node_js:
+  - '12'
+
+stages:
+  - install
+  - build
+  - test
+  - name: release
+    if: branch = master
+
+jobs:
+  include:
+    - stage: install
+      name: 'Install'
+      script:
+        - npm run install
+
+    - stage: build
+      name: 'Build'
+      script:
+        - npm run build
+
+    - stage: test
+      name: 'Test'
+      script:
+        - npm run test
+
+    - stage: release
+      name: 'Release'
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx -p @semantic-release/release-notes-generator -p @semantic-release/npm -p
+            @semantic-release/github semantic-release
+
+after_success: bash <(curl -s https://codecov.io/bash)
+
 cache:
   directories: node_modules
-script: npm run test:coverage
-after_success: bash <(curl -s https://codecov.io/bash)
