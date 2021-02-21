@@ -1,6 +1,6 @@
 {
   "hooks": {
     "prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true",
-    "pre-commit": "pretty-quick --staged && lint-staged"
+    "pre-commit": "pretty-quick --staged --pattern '!test/tests/lint/**' && lint-staged"
   }
 }

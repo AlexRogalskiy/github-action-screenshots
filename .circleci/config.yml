@@ -20,7 +20,9 @@ commands:
           command: node -v
       - restore_cache:
           name: Restore node_modules cache
-          key: github-action-screenshots-{{ checksum "package-lock.json" }}-{{ .Branch }}
+          keys:
+            - github-action-screenshots-{{ checksum "package-lock.json" }}-{{ .Branch }} # appends cache key with a hash of pom.xml file
+            - github-action-screenshots- # fallback in case previous cache key is not found
 
   save_env_cache:
     description: Saves environment cache

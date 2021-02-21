@@ -8,10 +8,10 @@
   "scripts": {
     "format": "prettier --write **/*.js",
     "format:check": "prettier --check **/*.js",
-    "prepublish": "node_modules/.bin/ncc build index.js -m -o dist",
+    "prepare": "node_modules/.bin/ncc build index.js -m -o dist",
     "postpublish": "npm run clean",
     "lint:editorconfig": "editorconfig-checker -exclude \\.yml$",
-    "start:action": "npm run prepublish && node dist/index.js",
+    "start:action": "npm run prepare && node dist/index.js",
     "lint": "eslint --cache --fix --quiet --format codeframe --ext js .",
     "lint:staged": "lint-staged --no-stash --allow-empty",
     "semantic-release": "semantic-release",
@@ -20,7 +20,8 @@
     "test": "TZ=utc jest",
     "test:coverage": "jest --collectCoverage",
     "test:watch": "jest --watch",
-    "all": "npm run format && npm run lint && npm run prepublish"
+    "test:all": "npm run test && npm run test:folio",
+    "all": "npm run format && npm run lint && npm run prepare"
   },
   "dependencies": {
     "@actions/core": "^1.2.6"
