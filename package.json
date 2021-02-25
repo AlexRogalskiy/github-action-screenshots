@@ -14,6 +14,7 @@
     "start:action": "npm run prepare && node dist/index.js",
     "lint": "eslint --cache --fix --quiet --format codeframe --ext js .",
     "lint:staged": "lint-staged --no-stash --allow-empty",
+    "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "test:folio": "folio tests/spec/",
