@@ -22,6 +22,8 @@
     "test:coverage": "jest --collectCoverage",
     "test:watch": "jest --watch",
     "test:all": "npm run test && npm run test:folio",
+    "version": "git add -A dist",
+    "postversion": "git push && git push --tags",
     "all": "npm run format && npm run lint && npm run prepare"
   },
   "dependencies": {
@@ -45,6 +47,7 @@
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-spellcheck": "0.0.8",
     "expect": "^26.6.2",
     "folio": "^0.3.18",
     "git-cz": "^4.1.0",
