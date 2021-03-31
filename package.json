@@ -39,7 +39,7 @@
     "@vercel/ncc": "~>0.27.0",
     "babel-eslint": "^10.1.0",
     "cz-conventional-changelog": "^3.3.0",
-    "editorconfig-checker": "3.3.0",
+    "editorconfig-checker": "4.0.2",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-github": "^4.1.1",
