@@ -49,7 +49,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-spellcheck": "0.0.8",
     "expect": "^26.6.2",
-    "folio": "^0.3.18",
+    "folio": "^0.4.0-alpha9",
     "git-cz": "^4.1.0",
     "husky": "^4.2.5",
     "jest": "^27.0.0-next.2",
