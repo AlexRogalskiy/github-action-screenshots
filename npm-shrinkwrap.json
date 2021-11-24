@@ -2600,28 +2600,48 @@
       }
     },
     "@semantic-release/commit-analyzer": {
-      "version": "8.0.1",
-      "resolved": "https://registry.npmjs.org/@semantic-release/commit-analyzer/-/commit-analyzer-8.0.1.tgz",
-      "integrity": "sha512-5bJma/oB7B4MtwUkZC2Bf7O1MHfi4gWe4mA+MIQ3lsEV0b422Bvl1z5HRpplDnMLHH3EXMoRdEng6Ds5wUqA3A==",
+      "version": "9.0.2",
+      "resolved": "https://registry.npmjs.org/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.2.tgz",
+      "integrity": "sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==",
       "dev": true,
       "requires": {
         "conventional-changelog-angular": "^5.0.0",
         "conventional-commits-filter": "^2.0.0",
-        "conventional-commits-parser": "^3.0.7",
+        "conventional-commits-parser": "^3.2.3",
         "debug": "^4.0.0",
-        "import-from": "^3.0.0",
+        "import-from": "^4.0.0",
         "lodash": "^4.17.4",
         "micromatch": "^4.0.2"
       },
       "dependencies": {
+        "conventional-commits-parser": {
+          "version": "3.2.3",
+          "resolved": "https://registry.npmjs.org/conventional-commits-parser/-/conventional-commits-parser-3.2.3.tgz",
+          "integrity": "sha512-YyRDR7On9H07ICFpRm/igcdjIqebXbvf4Cff+Pf0BrBys1i1EOzx9iFXNlAbdrLAR8jf7bkUYkDAr8pEy0q4Pw==",
+          "dev": true,
+          "requires": {
+            "JSONStream": "^1.0.4",
+            "is-text-path": "^1.0.1",
+            "lodash": "^4.17.15",
+            "meow": "^8.0.0",
+            "split2": "^3.0.0",
+            "through2": "^4.0.0"
+          }
+        },
         "debug": {
-          "version": "4.3.1",
-          "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
-          "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
+          "version": "4.3.2",
+          "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz",
+          "integrity": "sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==",
           "dev": true,
           "requires": {
             "ms": "2.1.2"
           }
+        },
+        "import-from": {
+          "version": "4.0.0",
+          "resolved": "https://registry.npmjs.org/import-from/-/import-from-4.0.0.tgz",
+          "integrity": "sha512-P9J71vT5nLlDeV8FHs5nNxaLbrpfAV5cF5srvbZfpwpcJoM/xZR3hiv+q+SAnuSmuGbXMWud063iIMx/V/EWZQ==",
+          "dev": true
         },
         "ms": {
           "version": "2.1.2",
@@ -16482,6 +16502,21 @@
         "yargs": "^16.2.0"
       },
       "dependencies": {
+        "@semantic-release/commit-analyzer": {
+          "version": "8.0.1",
+          "resolved": "https://registry.npmjs.org/@semantic-release/commit-analyzer/-/commit-analyzer-8.0.1.tgz",
+          "integrity": "sha512-5bJma/oB7B4MtwUkZC2Bf7O1MHfi4gWe4mA+MIQ3lsEV0b422Bvl1z5HRpplDnMLHH3EXMoRdEng6Ds5wUqA3A==",
+          "dev": true,
+          "requires": {
+            "conventional-changelog-angular": "^5.0.0",
+            "conventional-commits-filter": "^2.0.0",
+            "conventional-commits-parser": "^3.0.7",
+            "debug": "^4.0.0",
+            "import-from": "^3.0.0",
+            "lodash": "^4.17.4",
+            "micromatch": "^4.0.2"
+          }
+        },
         "debug": {
           "version": "4.3.1",
           "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
