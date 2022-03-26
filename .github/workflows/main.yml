@@ -41,7 +41,7 @@ jobs:
           commit_options: '--no-verify --signoff'
 
       - name: Archive screenshot image
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: open-screenshot
           path: open-screenshot.png
