@@ -67,7 +67,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= v18.9.1"
   },
   "keywords": [
     "github-actions",
