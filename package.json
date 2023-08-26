@@ -48,7 +48,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-spellcheck": "0.0.8",
-    "expect": "^26.6.2",
+    "expect": "^29.6.4",
     "folio": "^0.3.18",
     "git-cz": "^4.1.0",
     "husky": "^4.2.5",
