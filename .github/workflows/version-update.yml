@@ -20,7 +20,7 @@ jobs:
         run: echo "VERSION = \"$(git describe --tags `git rev-list --tags --max-count=1`)\"" > version.txt
 
       - name: Commit update
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: master
           skip_dirty_check: true

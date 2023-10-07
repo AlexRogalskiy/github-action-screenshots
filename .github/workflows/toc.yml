@@ -16,6 +16,6 @@ jobs:
           [[ -f "$FILE" ]] || curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o $FILE
           chmod a+x $FILE
           ./$FILE --insert --no-backup README.md
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto update markdown TOC
