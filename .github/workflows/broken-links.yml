@@ -8,7 +8,7 @@ jobs:
     name: Check for broken links in readme.md
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           # Disabling shallow clone for improving relevancy of SonarQube reporting
           fetch-depth: 0
