@@ -35,7 +35,7 @@ jobs:
           height: 400
 
       - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Add images pulled from headless browser to folder
           commit_options: '--no-verify --signoff'
