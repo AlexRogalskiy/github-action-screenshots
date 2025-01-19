@@ -46,7 +46,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-spellcheck": "0.0.8",
     "expect": "^26.6.2",
     "folio": "^0.3.18",
