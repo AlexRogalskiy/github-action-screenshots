@@ -13,7 +13,7 @@ jobs:
           output: ''
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.4.1
+          ruby-version: 2.7.8
       - run: gem install awesome_bot
       - run: for i in ${{ steps.file_changes.outputs.files_modified }}; do echo; echo "processing $i"; awesome_bot $i --allow-redirect --allow-dupe --allow-ssl || true; done
       - uses: actions/upload-artifact@v2
