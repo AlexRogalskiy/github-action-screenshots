@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v2.1.4
         with:
-          node-version: 12.x
+          node-version: 12.22.12
 
       - run: npm install -g markdown-link-check
       - run: find . -name \*.md -exec markdown-link-check -c .broken-link-config.json {} \;
